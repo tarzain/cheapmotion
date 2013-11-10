@@ -10,4 +10,6 @@
 
 @interface ViewController : UIViewController
 
+-(NSArray*)getRGBAsFromImage:(UIImage*)image atX:(int)xx andY:(int)yy count:(int)count;
+
 @end

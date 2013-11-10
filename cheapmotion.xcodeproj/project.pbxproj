@@ -22,6 +22,8 @@
 		BF1DFB8C182F6CBD008617BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1DFB6B182F6CBC008617BC /* UIKit.framework */; };
 		BF1DFB94182F6CBD008617BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF1DFB92182F6CBD008617BC /* InfoPlist.strings */; };
 		BF1DFB96182F6CBD008617BC /* cheapmotionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1DFB95182F6CBD008617BC /* cheapmotionTests.m */; };
+		BF1DFBA2182F7530008617BC /* first.JPG in Resources */ = {isa = PBXBuildFile; fileRef = BF1DFBA0182F752F008617BC /* first.JPG */; };
+		BF1DFBA3182F7530008617BC /* second.JPG in Resources */ = {isa = PBXBuildFile; fileRef = BF1DFBA1182F752F008617BC /* second.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		BF1DFB91182F6CBD008617BC /* cheapmotionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cheapmotionTests-Info.plist"; sourceTree = "<group>"; };
 		BF1DFB93182F6CBD008617BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BF1DFB95182F6CBD008617BC /* cheapmotionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cheapmotionTests.m; sourceTree = "<group>"; };
+		BF1DFBA0182F752F008617BC /* first.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = first.JPG; sourceTree = "<group>"; };
+		BF1DFBA1182F752F008617BC /* second.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = second.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,7 @@
 		BF1DFB6D182F6CBC008617BC /* cheapmotion */ = {
 			isa = PBXGroup;
 			children = (
+				BF1DFB9F182F750B008617BC /* Resources */,
 				BF1DFB76182F6CBC008617BC /* AppDelegate.h */,
 				BF1DFB77182F6CBC008617BC /* AppDelegate.m */,
 				BF1DFB79182F6CBC008617BC /* Main_iPhone.storyboard */,
@@ -153,6 +158,15 @@
 				BF1DFB92182F6CBD008617BC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF1DFB9F182F750B008617BC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BF1DFBA0182F752F008617BC /* first.JPG */,
+				BF1DFBA1182F752F008617BC /* second.JPG */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +246,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF1DFB7E182F6CBC008617BC /* Main_iPad.storyboard in Resources */,
+				BF1DFBA3182F7530008617BC /* second.JPG in Resources */,
 				BF1DFB83182F6CBD008617BC /* Images.xcassets in Resources */,
+				BF1DFBA2182F7530008617BC /* first.JPG in Resources */,
 				BF1DFB7B182F6CBC008617BC /* Main_iPhone.storyboard in Resources */,
 				BF1DFB72182F6CBC008617BC /* InfoPlist.strings in Resources */,
 			);
@@ -474,6 +490,7 @@
 				BF1DFB9B182F6CBD008617BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF1DFB9C182F6CBD008617BC /* Build configuration list for PBXNativeTarget "cheapmotionTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +499,7 @@
 				BF1DFB9E182F6CBD008617BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
